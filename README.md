@@ -3,7 +3,7 @@
 This project aims to show the power of Dependency Injection and why every developer that use Object-Oriented Programming must use DI.
 DI is a programming technique (set of patterns) that helps us to make loosley coupled source code. DI is based on Dependency Inversion Principle from SOLID.
 Dependency Injection is an implementation of this principle in code and states that we do not have to create our dependencies, instead we have to inject them
-from outside (mostly via constructor injection). 
+from outside via interfaces (mostly via constructor injection). 
 
 What says Dependency Inversion Principle: High-level modules SHOULD NOT depend on low-level modules. Both SHOULD depend on abstractions.
 
