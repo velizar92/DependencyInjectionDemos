@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. ServerLogging", "1. Serv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. AbstractDatabaseSystem", "3. AbstractDatabaseSystem\3. AbstractDatabaseSystem.csproj", "{37658874-2846-4184-BB9E-C7A3E0150D84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. ClientNotifier", "4. ClientNotifier\4. ClientNotifier.csproj", "{1B274728-9E51-4BFE-9581-8E3515C0526B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. ClientNotifier", "4. ClientNotifier\4. ClientNotifier.csproj", "{1B274728-9E51-4BFE-9581-8E3515C0526B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. AutofacDI", "5. AutofacDI\5. AutofacDI.csproj", "{5C934B4A-26EC-4477-9C20-905BE4702C65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1B274728-9E51-4BFE-9581-8E3515C0526B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B274728-9E51-4BFE-9581-8E3515C0526B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B274728-9E51-4BFE-9581-8E3515C0526B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C934B4A-26EC-4477-9C20-905BE4702C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C934B4A-26EC-4477-9C20-905BE4702C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C934B4A-26EC-4477-9C20-905BE4702C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C934B4A-26EC-4477-9C20-905BE4702C65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
