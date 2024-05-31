@@ -14,7 +14,7 @@ in the code itself.
 
 ![last](https://github.com/velizar92/DependencyInjectionDemos/assets/40525254/cc2d8892-fbee-4602-b43e-392756ddd7da)
 
-![FileSystemAbstractionLoosleyCoupled](https://github.com/velizar92/DependencyInjectionDemos/assets/40525254/6015d3a1-3007-4318-9064-9dd42d114c0c)
+![6666](https://github.com/velizar92/DependencyInjectionDemos/assets/40525254/72a236b2-c6f7-4380-9986-d868a300a64e)
 
 ![nwe](https://github.com/velizar92/DependencyInjectionDemos/assets/40525254/c1f09cd2-6de3-4e8b-a8d4-d950137d1ac4)
 
