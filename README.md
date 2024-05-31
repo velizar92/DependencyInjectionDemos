@@ -9,6 +9,9 @@ What says Dependency Inversion Principle: High-level modules SHOULD NOT depend o
 
 Important: Dependency Injection is crucial point for every good software engineer. If you want to see the power of Dependency Injection, check the repo.
 
+If you want to see a project that has both 3 examples: 1. Tight Coupling, 2. Loose Coupling without DI Container (Poor Man DI) and 3. Loose Coupling with DI (Autofac)
+please refer to project number 5 (AutofacDI).
+
 There is also a presentation about Dependency Injection that shows the code examples on the slides. The same examples with even more explanations are set
 in the code itself.
 
