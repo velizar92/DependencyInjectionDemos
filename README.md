@@ -6,6 +6,9 @@ Dependency Injection is an implementation of this principle in code and states t
 from outside via interfaces (mostly via constructor injection). 
 
 Why tightly coupled code is bad?
+
+![Tight](https://github.com/velizar92/DependencyInjectionDemos/assets/40525254/809a96e1-33e9-4399-b6d2-21656f5c6014)
+
 1. Lack of Flexibility - Tightly coupled systems are hard to change. Changing in one component often requires changes in all connected components.
 2. Difficult to maintain - As the system grows, maintaining tightly coupled systems can become increasingly difficult.
 3. Hard to Test - Tightly coupled systems are very hard for unit testing because each component (class) depends not on abstraction (interface) but on concrete implementations.
