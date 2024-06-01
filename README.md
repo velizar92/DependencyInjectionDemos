@@ -14,6 +14,7 @@ Why tightly coupled code is bad?
 3. Hard to Test - Tightly coupled systems are very hard for unit testing because each component (class) depends not on abstraction (interface) but on concrete implementations.
 4. Poor separation of concerns - One class should not be responsible of creating of its dependencies. The class should make one thing and to make it in a good way.
 5. Reuse and Scalability Issues - In tightly coupled systems, it's hard to reuse a component or scale a single component independently because it's closely connected to other components.
+6. Parallel developent is hindered - This is because one class depend on another class directly and the first class should wait for the implementation of it's dependency.
 
 What says Dependency Inversion Principle: High-level modules SHOULD NOT depend on low-level modules. Both SHOULD depend on abstractions.
 
