@@ -23,10 +23,10 @@ Important: Dependency Injection is crucial point for every good software enginee
 If you want to see a project that has both 3 examples: 1. Tight Coupling, 2. Loose Coupling without DI Container (Poor Man DI) and 3. Loose Coupling with DI (Autofac)
 please refer to project number 5 (AutofacDI).
 
-DI containers are also a BIG part from the right implementation of Dependency Injection. They are optional tool/s but if are used they help a lot with our the wiring of our application. Such DI frameworks are Autofac, Unity, Ninject and now in .NET the dependency injection is build in an can be used as well.
+DI containers are also a BIG part from the right implementation of Dependency Injection. They are optional tool/s but if are used they help a lot with the wiring of our application. Such DI frameworks are Autofac, Unity, Ninject and now in .NET the dependency injection is build in and can be used as well.
 
-There is also a presentation about Dependency Injection that shows the code examples on the slides. The same examples with even more explanations are set
-in the code itself.
+In the repository there is also a presentation about Dependency Injection that shows the code examples on the slides + some theory. The same code examples with even more explanations are set
+in the source code itself.
 
 ![last](https://github.com/velizar92/DependencyInjectionDemos/assets/40525254/cc2d8892-fbee-4602-b43e-392756ddd7da)
 
