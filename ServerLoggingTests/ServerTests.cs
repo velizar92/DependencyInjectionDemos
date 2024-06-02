@@ -10,8 +10,10 @@ namespace ServerLoggingTests
         [Fact]
         public void Constructor_WhenLoggerIsNull_ThrowsArgumentNullException()
         {
+            //Arrange
             ILogger logger = null;
 
+            //Assert
             Assert.Throws<ArgumentNullException>(() => new Server(logger));
         }
 
@@ -20,11 +22,14 @@ namespace ServerLoggingTests
         [Fact]
         public void Start_WhenIsCalled_LogsServerStartedMessage()
         {
+            //Arrange
             var mockLogger = new Mock<ILogger>();
             var server = new Server(mockLogger.Object);
 
+            //Act
             server.Start();
 
+            //Assert
             mockLogger.Verify(logger => logger.Log("Server is started."), Times.Once);
         }
     }

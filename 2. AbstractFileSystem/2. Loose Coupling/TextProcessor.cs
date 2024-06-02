@@ -24,11 +24,17 @@ namespace _2._AbstractFileSystem._2._Loose_Coupling
             _reader = reader;
         }
 
-        public void ProcessTextContent(string fileName)
+        public List<string> ProcessTextContent(string filePath)
         {
-            string[] fileLines = _reader.ReadFileLines(fileName);
+            string[] fileLines = _reader.ReadFileLines(filePath);
+            List<string> modifiedFileLines = new List<string>();
 
-            //Some processing of these file lines...
+            foreach (var fileLine in fileLines)
+            {
+                modifiedFileLines.Add(fileLine + "MODIFIED");
+            }
+
+            return modifiedFileLines;
 
         }
     }
